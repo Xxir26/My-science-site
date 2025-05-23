@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>موقعي العلمي</title>
+  <!-- Font Awesome للأيقونات -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #f1f5f9;
+      direction: rtl;
+    }
+
+    header {
+      background-color: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav a i {
+      margin-left: 8px;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(to right, #1e3a8a, #2563eb);
+      color: white;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #e0f2fe;
+    }
+
+    section {
+      background-color: white;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    section h2 {
+      color: #1e40af;
+      border-bottom: 2px solid #60a5fa;
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+
+    section p {
+      line-height: 1.8;
+      font-size: 17px;
+      color: #334155;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#home"><i class="fas fa-house"></i>الرئيسية</a>
+    <a href="#chemistry"><i class="fas fa-flask"></i>الكيمياء</a>
+    <a href="#physics"><i class="fas fa-atom"></i>الفيزياء</a>
+    <a href="#math"><i class="fas fa-square-root-alt"></i>الرياضيات</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+  <h1>مرحباً بكم في موقعي العلمي</h1>
+  <p>موقع تعليمي مبسّط يشرح لكم أساسيات الكيمياء، الفيزياء، والرياضيات بأسلوب ممتع وسهل!</p>
+</div>
+
+<section id="chemistry">
+  <h2>الكيمياء</h2>
+  <p>اكتشف أسرار العناصر والمركّبات، وتعرّف على التفاعلات التي تحدث في كل شيء حولك.</p>
+</section>
+
+<section id="physics">
+  <h2>الفيزياء</h2>
+  <p>تعلم كيف تتحرك الأشياء، ولماذا تطير الطائرات، وكيف تنتقل الطاقة في الكون.</p>
+</section>
+
+<section id="math">
+  <h2>الرياضيات</h2>
+  <p>من الأعداد إلى المعادلات، ستجد في هذا القسم طرق التفكير الرياضي وحل المسائل خطوة بخطوة.</p>
+</section>
+
+</body>
+</html>
